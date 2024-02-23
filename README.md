@@ -38,7 +38,7 @@ $mbplan = @{
 ```
 
 ## Output Example
-![alt text](images/mb_5frame.gif)
+![alt text](images/output_10fs.gif)
 
 ## Techniques Used
 * Chat GPT 3.5 did the boilerplate math functions for plotting the mandelbrot set.
