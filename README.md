@@ -49,8 +49,10 @@ $mbplan = @{
 * FFMPEG was used to assemble still frames into a movie.
 
 ## Future Enhancements
-* Read the parameters from json.
-* Write the current parameters to a json file.
+* Add color controls.
+* Add the ability to animate colors.
+* Read the movie plan parameters from json.
+* Write the current movie plan parameters to a json file.
 * Create a Forms interface to edit parameters.
 * Try this in other languages.
 
