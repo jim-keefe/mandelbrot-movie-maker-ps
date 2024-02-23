@@ -22,9 +22,9 @@ $mbplan = @{
     width = 1920
     height = 1080
     # Starting Frame... zoom, x offset, y offset and maximum iterations
-    zoomstart = 1.5
-    xoffsetstart = .3
-    yoffsetstart = .75
+    zoomstart = 2
+    xoffsetstart = 0
+    yoffsetstart = 0
     maxitstart = 30
     # Ending Frame... zoom, x offset, y offset and maximum iterations
     zoomend = .012
@@ -38,18 +38,18 @@ $mbplan = @{
 ```
 
 ## Output Example
-
+![alt text](images/mb_5frame.gif)
 ## Techniques Used
 * Chat GPT 3.5 did the boilerplate math functions for plotting the mandelbrot set.
 * Leading Zeros are used for file names.
 * Idempotent path creation.
-* Source another ps1 in the current ps1 in such a way that it extends the parent ps1 (i.e. add functions.ps1 to moviemaker.ps1)
-* Use the .Net Drawing Assembly to create still frames
-* Use ffmpeg to assemble still frames into a movie
+* Source another ps1 in the current ps1 in such a way that it extends the parent ps1 (i.e. add functions.ps1 to moviemaker.ps1).
+* Use the .Net Drawing Assembly to create still frames.
+* Use ffmpeg to assemble still frames into a movie.
 
 ## Future Enhancements
-* Read the parameters from json
-* Write the current parameters to a json file
-* Create a Forms interface to edit parameters
-* Try this in other languages
+* Read the parameters from json.
+* Write the current parameters to a json file.
+* Create a Forms interface to edit parameters.
+* Try this in other languages.
 
